@@ -22,4 +22,4 @@ Confusion matrix
 
 ![confusion_matrix](https://user-images.githubusercontent.com/65667280/192426925-afb9b8b1-57c0-4e7f-ba37-0b08842d848d.png)
 
-**Note: Coding was done in Matlab. All the functions required to implement this project are provided in online_detection_arrhythmia.m file.
+**Note: Coding was done in Matlab. All the functions required to implement this project are provided in online_detection_arrhythmia.m file.**
