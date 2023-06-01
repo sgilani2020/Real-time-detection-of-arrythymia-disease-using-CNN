@@ -288,13 +288,11 @@ end
 %testtb
 conn = database('fornaxhu_CardicCare','fornaxhu_Umair','NiUsrp2920', 'Vendor','MySQL', 'Server','www.fornaxhub.com');
 conn = database('fornaxhu_CardicCare','wptest','Asdf@1234567890', 'Vendor','MySQL', 'Server','20.188.98.39');
- 
-% data = table("Muhammad Umair","muhammadumair600@gmail.com",1000,25,"House No. F-199 POF Havelian Cantt");
-% sqlread(conn,'Patients')
+
  
 selectquery = 'SELECT * FROM Patients';
 colnames = {'FullName','EmailID','ContactNo','Address'};
-data = {"Qasim GAY-lani","fu**ng@gmail.com",420440,"Neelum Jhelum"};
+data = {"Qasim Gilani","qa***@gmail.com",420440,"Neelum Jhelum"};
 data_table = cell2table(data,'VariableNames',colnames);
 tablename = 'Patients';
 datainsert(conn,tablename,colnames,data_table)
